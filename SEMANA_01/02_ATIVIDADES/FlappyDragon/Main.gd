@@ -1,11 +1,11 @@
 extends Node # instancia a classe Node2D
 
 var status = 1
-# mostra a situação dele, ou seja se o jogo está rodando ou não,
+# mostra a situação dele, ou seja se o jogo está rodando ou não
 var vscore = 0
 # representa a pontuação do jogador
 var x = 3.0
-# representa do dragão a velocidade no eixo x
+# representa a velocidade do dragão no eixo x
 var y = 1.5 
 # representa a velocidade do dragão no eixo y
 
