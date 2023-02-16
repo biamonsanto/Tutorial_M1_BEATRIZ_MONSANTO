@@ -1,6 +1,6 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
+var status = 0
 # mostra a situação dele, ou seja se o jogo está rodando ou não,
 var vscore = 0
 # representa a pontuação do jogador
