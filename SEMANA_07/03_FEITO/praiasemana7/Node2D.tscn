@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+[ext_resource path="res://telainicial.png" type="Texture" id=2]
+[ext_resource path="res://botaoplay.png" type="Texture" id=3]
+[ext_resource path="res://botaomenu.png" type="Texture" id=4]
+
+[node name="telainicial" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Telainicial" type="Sprite" parent="."]
+position = Vector2( 511.5, 303 )
+scale = Vector2( 1.60156, 1.66484 )
+texture = ExtResource( 2 )
+
+[node name="TextureButton" type="TextureButton" parent="Telainicial"]
+margin_left = -128.884
+margin_top = 5.47829
+margin_right = 85.1155
+margin_bottom = 79.4783
+texture_normal = ExtResource( 4 )
+
+[node name="TextureButton2" type="TextureButton" parent="Telainicial"]
+margin_left = -130.78
+margin_top = 82.1738
+margin_right = 83.2203
+margin_bottom = 155.174
+texture_normal = ExtResource( 3 )
+
+[connection signal="pressed" from="Telainicial/TextureButton" to="." method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="Telainicial/TextureButton2" to="." method="_on_TextureButton2_pressed"]
